@@ -1,1 +1,2 @@
-# CMOR 438 Data Science & Machine Learning Example Repo
+# INDE577FALL25
+INDE 577 Repository
