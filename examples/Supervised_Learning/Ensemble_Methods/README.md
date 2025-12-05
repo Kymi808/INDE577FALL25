@@ -5,8 +5,8 @@ in supervised learning.
 
 ## Algorithm
 
-_TODO: Describe the core idea of Ensemble Methods, its objective, and key hyperparameters._
+This example uses the Breast Cancer Wisconsin dataset: 30 numeric features (e.g., texture, smoothness); label is binary (malignant vs. benign). Data loaded via sklearn.datasets.load_breast_cancer. Tree ensembles do not require scaling; we include median imputation to handle potential missing values in other datasets.
 
 ## Data
 
-_TODO: Describe the input features, labels (if any), and how datasets are loaded or preprocessed for Ensemble Methods._
+This example uses the Breast Cancer Wisconsin dataset: 30 numeric features (e.g., texture, smoothness); label is binary (malignant vs. benign). Data loaded via sklearn.datasets.load_breast_cancer. Tree ensembles do not require scaling; we include median imputation to handle potential missing values in other datasets.
