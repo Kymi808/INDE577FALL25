@@ -9,9 +9,9 @@ Linear Regression models the target y as a linear combination of features X:
 $$\hat{y} = \beta_0 + \beta^\top X$$
 Objective: minimize the sum of squared errors (OLS).
 Key hyperparameters (when regularized):
-	•	Ridge (L2): alpha (penalty strength)
-	•	Lasso (L1): alpha (sparsity level)
-	•	(With polynomial basis) degree and interaction options.
+- Ridge (L2): alpha (penalty strength)
+- Lasso (L1): alpha (sparsity level)
+- (With polynomial basis) degree and interaction options.
 
 ## Data
 
