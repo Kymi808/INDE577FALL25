@@ -71,6 +71,7 @@ from rice_ml.supervised_learning.ensemble_methods import (
     AdaBoostClassifier,
     BaggingClassifier,
 )
+from rice_ml.supervised_learning.rnn import RNNClassifier, GRUClassifier
 
 # Unsupervised learning
 from rice_ml.unsupervised_learning.k_means_clustering import KMeans
@@ -128,6 +129,8 @@ __all__ = [
     'Perceptron',
     'MLPClassifier',
     'MLPRegressor',
+    'RNNClassifier',
+    'GRUClassifier',
     
     # Supervised Learning - Ensemble
     'RandomForestClassifier',

@@ -56,6 +56,7 @@ from rice_ml.supervised_learning.distance_metrics import (
     euclidean_distance,
     manhattan_distance,
 )
+from rice_ml.supervised_learning.rnn import RNNClassifier, GRUClassifier
 
 __all__ = [
     # Decision Trees
@@ -73,6 +74,8 @@ __all__ = [
     'Perceptron',
     'MLPClassifier',
     'MLPRegressor',
+    'RNNClassifier',
+    'GRUClassifier',
     # Ensemble Methods
     'RandomForestClassifier',
     'AdaBoostClassifier',
