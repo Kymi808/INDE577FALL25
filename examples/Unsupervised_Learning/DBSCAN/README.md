@@ -5,8 +5,11 @@ in unsupervised learning.
 
 ## Algorithm
 
-_TODO: Describe the core idea of DBSCAN, its objective, and key hyperparameters._
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) groups points whose neighborhoods (radius eps) contain at least min_samples points, forming core points; points reachable from cores are clustered; others are labeled noise.
+Objective: uncover dense regions without specifying the number of clusters; treat sparse regions as outliers.
+Key hyperparameters: eps, min_samples, metric (e.g., Euclidean), and leaf_size (k-NN efficiency).
 
 ## Data
 
-_TODO: Describe the input features, labels (if any), and how datasets are loaded or preprocessed for DBSCAN._
+Input is a numeric feature matrix we standardized with StandardScaler.
+This notebook uses a synthetic 2-D dataset (moons + blob + noise) to demonstrate DBSCAN’s strength on non-convex shapes and outlier detection.
