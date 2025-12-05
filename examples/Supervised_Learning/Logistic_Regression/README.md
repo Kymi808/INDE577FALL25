@@ -5,8 +5,11 @@ in supervised learning.
 
 ## Algorithm
 
-_TODO: Describe the core idea of Logistic Regression, its objective, and key hyperparameters._
+Logistic Regression predicts the probability of the positive class using a logistic/sigmoid link on a linear combination of features.
+Objective: minimize log-loss (negative log-likelihood) with optional L1/L2 penalties.
+Key hyperparameters: penalty (l2, l1), C (inverse regularization), solver (liblinear, lbfgs, saga), class_weight, and max_iter.
 
 ## Data
 
-_TODO: Describe the input features, labels (if any), and how datasets are loaded or preprocessed for Logistic Regression._
+This example uses Breast Cancer Wisconsin (30 numeric features; label: malignant/benign).
+Loaded via sklearn.datasets.load_breast_cancer. We apply a StandardScaler before Logistic Regression.
