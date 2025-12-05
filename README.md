@@ -1,7 +1,8 @@
 # CMOR 438 Data Science & Machine Learning 
 # Netid: kzz1
 
-A NumPy-first ML package with clear reference implementations and runnable examples for supervised, unsupervised, and sequence models. The repository includes reproducible scripts and notebooks on MNIST and language identification, plus unit tests.
+## Introduction
+This repo consists of everything required in the final project of course INDE577. It consists of a NumPy-first ML package with clear reference implementations and runnable examples for supervised, unsupervised, and sequence models. The repository includes reproducible scripts and notebooks on MNIST and language identification, plus unit tests.
 
 ## Repo Structure
 
@@ -32,7 +33,7 @@ src/rice_ml/unsupervised_learning/  PCA, KMeans, DBSCAN, community detection
 tests/
 tests/unit/                         pytest unit tests per module consists of unit tests for all models in ml package
 
-pyproject.toml                      build config (PEP 621)
+pyproject.toml                      build config 
 Makefile                        
 README.md
 
