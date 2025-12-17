@@ -4,6 +4,8 @@
 ## Introduction
 This repo consists of everything required in the final project of course INDE577. It consists of a NumPy-first ML package with clear reference implementations and runnable examples for supervised, unsupervised, and sequence models. The repository includes reproducible scripts and notebooks on MNIST and language identification, plus unit tests.
 
+Examples of data ran on MNIST digits and 5 Languages datasets can be found in the example_ml_utilization module. Within it are 2 jupiter notebooks showing analysis on different ml models trained by the data. 
+
 ## Repo Structure
 
 data/                          
